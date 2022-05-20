@@ -1,7 +1,15 @@
+body {
+    background: url('/img/background.jpg') no-repeat;
+    background-position: center, 187px;
+    width: 1440px;
+    height: 825px;
+}
+
 header {
+    background-color: blue;
+    background-position: center, 187px;
     width: 1440px;
     height: 80px;
-    background-color: blue;
 }
 
 .box div {
@@ -13,10 +21,21 @@ header {
     font-family: IBM Plex Mono;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 925px;
+    color: #FFF;
+}
+
+.dot {
+    color: #02C173;
 }
 
 .menu {
     font-family: IBM Plex Mono;
     font-size: 14px;
     font-weight: normal;
+    margin-right: 40px;
+    color: #C1CCC7;
 }
