@@ -1,20 +1,32 @@
 body {
-    background: url('/img/background.jpg') no-repeat;
-    background-position: center, 187px;
-    width: 1440px;
-    height: 825px;
+background: url('/img/bg.jpg') no-repeat center;
+background-position: center;
+background-size: 100%;
 }
+ 
+/* second backgrpound
+ background: url('/img/background.jpg') no-repeat;
+background-position: center,
+187px;
+width: 1440px;
+height: 825px; */
+/* background-color: blue;
+background-position: center,
+187px;
+width: 1440px;
+height: 80px; */
 
 header {
-    background-color: blue;
-    background-position: center, 187px;
+    background: url('/img/background.jpg') no-repeat;
+    background-position: center;
     width: 1440px;
-    height: 80px;
+    height: 825px;
 }
 
 .box div {
     width: auto;
     display: inline-block;
+    
 }
 
 .name {
@@ -38,4 +50,17 @@ header {
     font-weight: normal;
     margin-right: 40px;
     color: #C1CCC7;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 160px;
+}
+
+.intelligence {
+    color: #02C173;
+    font-size: 64px;
+    font-weight: bold;
 }
